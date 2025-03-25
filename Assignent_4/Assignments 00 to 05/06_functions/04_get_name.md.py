@@ -1,0 +1,14 @@
+def get_name():
+    """
+    This function returns the name 'Sophia'.
+    """
+    return "Sophia"
+
+
+
+def main():
+    name = get_name()  # get_name() will return a string which we store to the 'name' variable here
+    print("Howdy", name, "! 🤠")
+
+if __name__ == '__main__':
+    main()
